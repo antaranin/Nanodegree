@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/portfolio_background_3"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google_nano"
+        android:id="@+id/textView"
+        android:textSize="34sp"
+        android:textColor="@color/portfolio_light_gray"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/portfolio_btn_padding_sides"
+        android:layout_marginEnd="@dimen/portfolio_title_margin_side"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        style="@style/udacity_large_btn_style"
+        android:layout_width="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/spotify_streamer_btn"
+        android:layout_below="@+id/textView"
+        />
+
+    <Button
+        style="@style/udacity_large_btn_style"
+        android:layout_width="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/scores_app_btn"
+        android:layout_below="@+id/spotify_streamer_btn"
+        />
+
+    <Button
+        style="@style/udacity_large_btn_style"
+        android:layout_width="wrap_content"
+        android:text="@string/lib_app"
+        android:id="@+id/lib_app_btn"
+        android:layout_below="@+id/scores_app_btn"
+        />
+
+    <Button
+        style="@style/udacity_large_btn_style"
+        android:layout_width="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/build_it_bigger_btn"
+        android:layout_below="@+id/lib_app_btn"
+        />
+
+    <Button
+        style="@style/udacity_large_btn_style"
+        android:layout_width="wrap_content"
+        android:text="@string/xyz_reader"
+        android:id="@+id/xyz_reader_btn"
+        android:layout_below="@+id/build_it_bigger_btn"
+        />
+
+    <Button
+        style="@style/special_large_btn_style"
+        android:layout_width="wrap_content"
+        android:text="@string/capstone_my_app"
+        android:id="@+id/capstone_btn"
+        android:layout_below="@+id/xyz_reader_btn"
+        />
+</RelativeLayout>

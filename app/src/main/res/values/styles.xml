@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="portfolio_btn_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">@dimen/portfolio_btn_padding_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/portfolio_btn_padding_top_bottom</item>
+        <item name="android:paddingLeft">@dimen/portfolio_btn_padding_sides</item>
+        <item name="android:paddingRight">@dimen/portfolio_btn_padding_sides</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/portfolio_btn_margin_top_bottom</item>
+        <item name="android:layout_marginTop">@dimen/portfolio_btn_margin_top_bottom</item>
+
+        <item name="android:minWidth">@dimen/btn_large_width</item>
+    </style>
+
+    <style name="udacity_large_btn_style" parent="portfolio_btn_style">
+        <item name="android:textColor">@color/portfolio_gray</item>
+        <item name="android:background">@color/portfolio_orange</item>
+    </style>
+
+    <style name="special_large_btn_style" parent="portfolio_btn_style">
+        <item name="android:textColor">@color/portfolio_light_gray</item>
+        <item name="android:background">#bd4c4c</item>
+    </style>
+
+</resources>
